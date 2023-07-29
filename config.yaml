@@ -1,0 +1,19 @@
+# Path File
+raw_set_path: '/home/aegis_poc/model/output/data.json'
+clean_set_path: '/home/aegis_poc/model/output/data_clean.json'
+model_path: '/home/aegis_poc/model/output/model.h5'
+train_images_path: '/home/aegis_poc/model/output/train_images.json'
+val_images_path: '/home/aegis_poc/model/output/val_images.json'
+test_images_path: '/home/aegis_poc/model/output/test_images.json'
+train_labels_path: '/home/aegis_poc/model/output/train_labels.json'
+val_labels_path: '/home/aegis_poc/model/output/val_labels.json'
+test_labels_path: '/home/aegis_poc/model/output/test_labels.json'
+data_source: '/home/aegis_poc/stag_directory/Banana'
+
+# Preprocess method
+test_size: 0.2
+random_state: 95
+resize_width: 64
+resize_height: 64
+batch_size: 32
+epochs: 10
